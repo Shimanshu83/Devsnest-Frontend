@@ -6,13 +6,18 @@
     /* color : red ;  */
 
 }
+div {
+    color : rgba(62,75,117,255) ; 
+}
 
 .resume-container{
-    max-width: 80%;
+    max-width: 842px;
+    padding : 100px 20px 60px 20px ; 
     margin : 0px auto ; 
-    border-bottom : 2px solid rgb(3, 50, 65);
+    /* border-bottom : 2px solid rgb(3, 50, 65);
     border-right :  2px solid rgb(3, 50, 65);
-    border-left :  2px solid rgb(3, 50, 65);
+    border-left :  2px solid rgb(3, 50, 65); */
+    border :  4px solid rgba(84,124,154,255) ; 
     display : flex ; 
     flex-direction : row ; 
     justify-content: space-around;
@@ -20,15 +25,83 @@
     
 
 }
+.head{
+    width : 340px;  
+    /* border : 2px solid black ; */
+    display: inline-block;
+    position: relative;
+    left : 580px ;
+    bottom : -30px ;
+    background-color: white ;  
+
+}
+.heading{
+    text-align: center;
+    font-size: 2em ; 
+    font-weight: 600; 
+    color : rgba(86,126,155,255); 
+}
+.role {
+    color : rgba(86,126,155,255) ; 
+    font-size: medium;
+    text-align: center;
+}
+
 .right-section{
-    width : 27% ; 
+    width : 45% ; 
     display : flex ;
     flex-direction : column ; 
+    border-right: 3px solid  rgba(84,124,154,255) ; 
+    padding-right : 8px ; 
+     
 
     
 
 }
 .left-section{
     width : 57% ; 
+    display : flex ; 
+    flex-direction : column ;
+    padding : 0px 20px ;  
+    
 }
+.total-head{
+    align-self: flex-end;
+}
+
+.topic{
+    margin-bottom: 40px ;
+}
+
+.topic-head{
+    font-size: 1.2em;
+    font-weight: bolder;
+    
+
+}
+.topic-content{
+    margin : 10px 0px ; 
+}
+
+
+.left-article-head{
+    font-size: 1.4em;
+    font-weight: 900;
+    margin-bottom : 10px ; 
+}
+
+.topic-sh{
+    font-size :1.2em ;
+    margin-bottom : 8px ; 
+}
+
+.left-section .topic-head {
+    margin-bottom: 8px;
+}
+
+.left1{
+    margin-bottom: 5em;
+
+}
+
 
