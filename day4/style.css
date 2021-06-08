@@ -9,10 +9,93 @@
 .clock {
     
     display : flex ; 
-    border-radius: 100%;
-    height: 400px;
-    width : 400px ; 
+    border-radius: 50%;
+    height: 300px;
+    width : 300px ; 
     border : 40px solid red ; 
-    box-shadow: 0px opx  10px rgba(253, 250, 250, 0.397) ; 
+    box-shadow:  0px 0px 5px 6px rgba(184, 172, 172, 0.603) ,  inset 0px 0px 5px 6px rgba(184, 172, 172, 0.603);;
+    
+    
+}
+
+
+
+/* .clock > div{
+ 
+} */
+
+.second {
+    position: absolute;
+    top : 50%  ; left : 50% ;
+    height : 120px ; 
+    border : 2px solid red  ;
+    animation : rotate_second 60s steps(60,end) infinite ; 
+}
+
+/* .center{
+    position: absolute;
+    top : 49%  ; left : 48% ;
+
+    height: 30px ;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+} */
+
+.minute{
+    position: absolute;
+    top : 50%  ; left : 50% ;
+    height : 100px ; 
+    border : 3px solid red  ;
+    animation : rotate_second 3600s steps(60,end) infinite ;
+}
+.hour{
+    border: 4px solid red;
+    height : 80px ;
+    position: absolute;
+    top : 50%  ; left : 50% ;
+    animation : rotate_second 43200s steps(12,end) infinite ;
 
 }
+
+@keyframes rotate_second {
+    0%{
+        
+        transform: rotate(180deg);
+        transform-origin: top left;
+    }
+    100%{
+        /* translate: (50%,50%); */
+        transform: rotate(540deg);
+        transform-origin: top left;
+    }
+    
+}
+@keyframes rotate_hour  {
+    0%{
+        
+        transform: rotate(0deg);
+        transform-origin: top left;
+    }
+    100%{
+        /* translate: (50%,50%); */
+        transform: rotate(360deg);
+        transform-origin: top left;
+    }
+    
+}
+
+@keyframes rotate {
+    0%{
+        
+        transform: rotate(0deg);
+        transform-origin: top left;
+    }
+    100%{
+        /* translate: (50%,50%); */
+        transform: rotate(360deg);
+        transform-origin: top left;
+    }
+    
+}
+
