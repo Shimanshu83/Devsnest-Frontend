@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    /* color : red ;  */
+
+}
+
+body{
+    background-color: rgb(131, 131, 46);
+}
+span {
+    border-bottom: 3px solid chartreuse;
+    display: inline-block;
+    line-height: 0.5;
+}
+
+p{
+    color : rgba(0, 0, 0, 0.685) ; 
+}

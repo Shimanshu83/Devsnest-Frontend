@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin : 0px ; 
+    padding : 0px ; 
+}
+.container{
+    width : 100vw ; 
+    height : 100vh ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.button{
+    width : 200px ; 
+    height: 100px;
+    color : blue ; 
+    border : 2px solid red ; 
+}
+
+#button1{
+   background-color: blanchedalmond; 
+}
+
+#button1{
+    background-color: aqua;
+}
+
+#button1{
+    background-color: blueviolet;
+    
+}

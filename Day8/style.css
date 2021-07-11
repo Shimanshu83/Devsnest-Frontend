@@ -1,0 +1,38 @@
+:root{
+    --gap  : 1px ; 
+  }
+  
+  
+  .container{
+    width  : 100vw ; 
+    height : 100vh ; 
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center ; 
+  }
+  .box-container{
+    width : 500px ; 
+    height : 500px ; 
+    border : 1px solid red ; 
+    display : grid ; 
+    grid-template-columns : repeat(20,1fr) ; 
+    grid-template-rows : repeat(20,1fr) ; 
+    gap : var(--gap) ; 
+    padding : var(--gap); 
+    background-color: lightblue ; 
+    
+    
+  }
+  
+  .box-container > div{
+    border : 1px solid red ; 
+    
+  }
+  
+  .boxk{
+    background-color : lightgreen ; 
+  }
+  .white{
+    background-color : white ; 
+  }
+  
