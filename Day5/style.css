@@ -1,0 +1,34 @@
+.menuBtn{
+    width : 80px ; 
+    height : 80px ; 
+    display  : flex ;
+  /*   border : 1px solid red ;  */
+    flex-direction : column ; 
+    justify-content : space-between  ;
+    
+    
+  }
+  .menuBtn  div {
+    width : 100% ; 
+    border-bottom  : 4px solid black ; 
+    transition  : 400ms all ease-in ; 
+    transform-origin : top left ; 
+  
+  }
+  
+  .menuBtn.open div:first-child {
+    transform : rotate(45deg) ; 
+    width : 110px ; 
+    
+  }
+  .menuBtn.open div:nth-child(2) {
+  /*   transform : rotate(45deg) ;  */
+    opacity  : 0 ; 
+    
+  }
+  .menuBtn.open div:last-child {
+    transform : rotate(-45deg) ; 
+    width : 110px ; 
+    
+  }
+  
