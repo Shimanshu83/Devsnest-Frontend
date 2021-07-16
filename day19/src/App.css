@@ -1,0 +1,33 @@
+.container{
+  
+  width : 100vw ; 
+  height : 100vh ; 
+  display : flex ; 
+  flex-direction: column ;
+  justify-content: center ;
+  align-items:center ; 
+}
+
+.heading{
+  font-weight: bold;
+  align-content: center; 
+}
+
+.counter-cont{
+  width : 340px ;
+  padding : 10px ; 
+  border : 2px solid black ; 
+  display: flex ; 
+  justify-content: space-around;
+}
+
+.btn{
+  border-radius: 10px ;
+  width : 60px ; 
+  height : 60px;
+  color : red ; 
+  font-weight: bolder ; 
+  font-size: 1.5em ; 
+  background-color : yellowgreen ; 
+
+}

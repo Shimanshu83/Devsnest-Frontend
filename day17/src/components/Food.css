@@ -1,0 +1,15 @@
+.food-info{
+    width: 90%;
+    border : 2px solid green ; 
+    padding : 0px 10px ;
+    border-radius : 10px ; 
+    margin : 10px ; 
+    box-sizing: border-box;
+    background : rgba(159, 223, 87, 0.788) ; 
+
+}
+
+.food-calorie{
+    font-size : 1.3em ; 
+    font-weight : bold ; 
+}
