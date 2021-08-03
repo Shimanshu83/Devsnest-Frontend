@@ -1,0 +1,26 @@
+.card{
+    width : 600px ; 
+    margin :  30px auto  ; 
+    height : auto ; 
+    border : 1px solid grey ; 
+    border-radius : 10px ; 
+    padding : 20px 20px 20px 20px ; 
+    
+}
+.card > * {
+    box-sizing: border-box;
+    margin : 0px ; 
+}
+.delete{
+    background-color : rgba(255, 0, 0, 0.589) ; 
+    font-size: 1.6em ; 
+    padding : 5px 10px ; 
+    text-decoration: none;
+}
+.card-name{
+    padding : 0.6em ; 
+}
+.calorie-p{
+    font-size : 1.6em ;
+    padding : 0.6em 0px; 
+}

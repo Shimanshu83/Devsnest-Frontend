@@ -1,0 +1,32 @@
+.item-creator-container{
+    width : 600px ; 
+    margin : auto ; 
+    height : 120px ; 
+    display : flex; 
+    padding : 20px ; 
+    border : 2px solid grey ; 
+    flex-wrap: wrap;
+    justify-content: space-around ; 
+    align-items: center ;
+    border-radius: 10px ; 
+    margin-top : 40px ; 
+
+
+}
+.item-name{
+    width : 45% ; 
+    height : 40px ;
+    font-size: 1.3em; 
+
+}
+.calorie{
+    width : 45% ; 
+    height : 40px ; 
+    font-size: 1.3em;
+    
+}
+.submit{
+    width : 80% ; 
+    height : 40px ;
+    font-size: 1.3em; 
+}
