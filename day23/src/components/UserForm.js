@@ -8,8 +8,9 @@ function UserForm() {
     const submitHandler = (e) => {
         e.preventDefault() ; 
 
-        alert(`${firstName}`);
+        alert(`${firstName} and ${lastName}`);
         setFirstName('');
+        setLastName(''); 
          
     }
 
