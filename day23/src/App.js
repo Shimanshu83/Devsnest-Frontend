@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import "./App";
+import UserForm from "./components/UserForm";
+import UserFormCustomHooks from "./components/customHook/UserFormCustomHooks";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hello World</h1>
+
+        {/* component using useState hooks */}
+      <UserForm />
+
+      {/* component using custom hooks */}
+      <UserFormCustomHooks />
+
+      
     </div>
   );
-}
+};
 
 export default App;
