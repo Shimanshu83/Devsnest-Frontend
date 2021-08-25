@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+width: 500px;
+height: 100px;
+border: 2px solid black;
+margin: 20px;
+border-radius: 30px;
+background-color: blanchedalmond;
+box-shadow: 5px 0px 10px black;
+text-align: center;
+
+}
+.username,.password{
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: normal;
+}
+
+.container input{
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+}
+.container .name,.pass{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: chartreuse;
+  display: inline-block;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 0px 8px black;
+}

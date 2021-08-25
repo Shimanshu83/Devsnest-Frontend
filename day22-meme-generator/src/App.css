@@ -39,11 +39,72 @@ Meme.jsx css
 #############
 */
 
+.meme-center{
+  width : 100vw ; 
+  display : flex ; 
+  justify-content : center ; 
+}
 .meme-container {
-  text-align : center ;  
+  height : auto ; 
+  width : auto ; 
+  display : flex ; 
+  flex-direction: row ; 
+  flex-wrap : nowrap ; 
+  align-items: center; 
+  gap : 40px ;
+  
 }
 
 img {
   width: auto;
   height: 450px;
+  border-radius : 15px; 
 }
+
+.left-input-container {
+  width : 300px ;
+  height : auto ; 
+  display : flex; 
+  flex-direction : column ; 
+}
+
+.input-cont{
+  padding : 0.6em ; 
+  display : flex ; 
+  flex-direction : column ; 
+}
+
+.input-cont > input {
+  margin : 0.6rem 0px ;
+  font-size : 1.5rem ; 
+  text-decoration: none; 
+  padding : 0.5rem 0.3rem ;
+  border-radius :5px ; 
+  text-align:center ; 
+}
+
+.buttons{
+  width : 300px ; 
+  display : flex ; 
+  justify-content : center ; 
+}
+
+.buttons > button {
+  width: 160px ; 
+  height : 50px ; 
+  font-size : 1.5rem ; 
+  background-color : rgb(248, 248, 250) ; 
+  border-radius : 5px ;
+  position : absolute ; 
+  box-shadow : 0px 4px 1px 0px  rgb(83, 83, 83) ; 
+  border : 1px solid  rgb(90, 89, 88) ;
+  transition : 0.1s all ease-in ;  
+}
+
+
+.buttons > button:active {
+ transform : translateY(10px);
+  box-shadow : 0px -4px 1px 0px  rgb(65, 64, 63) ; 
+  
+}
+
