@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(141, 175, 238);
+  
+  text-align: center;
+  
+}
+
+.form{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form input{
+  padding:0px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.form button{
+  display: flex;
+  margin: 0px 10px;
+}
+.weather{
+  text-align: center;
+  
+  
+}
+.card{
+  
+  margin-top: 70px;
+  background-repeat: no-repeat;
+  box-shadow: 3px 0px 15px black;
+
+
+
+}
+.card img{
+  opacity: 100%;
+  width: 30%;
+
+}
+.card .place{
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Righteous', cursive;
+  opacity: 0.8;
+  margin: 10px 0px;
+}
+.card .desc{
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.card .temp{
+  font-size: 4rem;
+  margin-left: 25.73px;
+  font-weight: 500;
+}
+.whp{
+  margin: 20px 10px;
+}
+.whp .title{
+  font-size: 0.7rem;
+}
+.whp .data{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.whp .data .unit{
+  font-size: 0.7rem;
+}
