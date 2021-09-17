@@ -19,7 +19,6 @@ function App() {
       <h1>Meme Generator</h1>
       {meme === null ?
       < Templates templates={templates} setMeme={setMeme} /> : <Meme memeData={meme} setMeme={setMeme}/>}
-
     </div>
   );
 }

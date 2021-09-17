@@ -43,7 +43,7 @@ const Meme = ({ memeData, setMeme }) => {
 
           <div className="buttons">
             <button onClick={generateMeme}>Create Meme</button>
-            {/* <button> Choose Template</button> */}
+            {/* <button onClick={(name)=>{setMeme(null)}}>ClassRoom</button> */}
           </div>
         </div>
       </div>
